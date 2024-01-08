@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WorldeGame.MainPage">
+
+    <VerticalStackLayout VerticalOptions="CenterAndExpand">
+
+        <Label x:Name="Header" Text="Wordle" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" FontSize="50" TextColor="GreenYellow"/>
+
+        <VerticalStackLayout x:Name="topLevel" HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+        </VerticalStackLayout>
+
+        <StackLayout HorizontalOptions="Center">
+            <HorizontalStackLayout x:Name="middleLevel" VerticalOptions="CenterAndExpand">
+
+            </HorizontalStackLayout>
+        </StackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WorldeGame.HowTo"
+             Title="HowTo">
+    <VerticalStackLayout Spacing="10" VerticalOptions="CenterAndExpand">
+        <Label Text="How To Play"
+               FontSize="24"
+               FontAttributes="Bold"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="CenterAndExpand"/>
+        <StackLayout WidthRequest="500">
+            <VerticalStackLayout x:Name="layout">
+                <Label Text="1."
+                       FontSize="24"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" />
+                <Label Text="Make a guess by clicking letters on the keyboard, and hten clicking submit"
+                       FontSize="16"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" />
+                <Label Text="2."
+                       FontSize="24"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" />
+                <Label Text="You can adjust your guess based on hte coloured indicators"
+                       FontSize="24"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" />
+                <Label Text="3."
+                       FontSize="24"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" />
+                <Label Text="You can use the backspace button to adjust your guess"
+                       FontSize="24"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" />
+                <Label Text="4."
+                       FontSize="24"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" />
+                <Label Text="You can make six guesses before the game ends. You can play again and you will have to guess a new word."
+                       FontSize="24"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" />
+                <Label Text="You can adjust the font size and theming in the settings. You can also turn on hints if needed."
+                       FontSize="24"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>   
+            </VerticalStackLayout>
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>

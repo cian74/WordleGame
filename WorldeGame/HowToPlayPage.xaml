@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WorldeGame.HowToPlayPage">
+    <VerticalStackLayout Spacing="10" VerticalOptions="CenterAndExpand">
+        <Label Text="Help"
+               FontSize="24"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="StartAndExpand" />
+        <StackLayout WidthRequest="500">
+            <VerticalStackLayout x:Name="layout">
+                <Label Text="1."
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" />
+                <Label Text="Choose the first five letters from the keyboard to input into the five boxes. You make a guess by clicking submit after the letters have been chosen."
+                       FontSize="16"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" />
+                <Label Text="2."
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" />
+                <Label Text="You can adjust your additional guesses based on the coloured indicater on the letter. Green indicates the correct letter and position, Orange indicates 1 correct letter in the wrong position"
+                       FontSize="16"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" />
+                <Label Text="3."
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" />
+                <Label Text="You can also adjust your guess by using the backspace button."
+                       FontSize="16"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" />
+                <Label Text="4."
+                       FontSize="18"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" />
+                <Label Text="You can submit six guesses before failing the game. You can restart the game once you have guessed correctly or failed the game"
+                       FontSize="16"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start" />
+            </VerticalStackLayout>
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>
